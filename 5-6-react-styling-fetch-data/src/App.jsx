@@ -206,10 +206,11 @@ export default function App() {
     // Done 2.1: Implement fetching users here (see lab instructions)
     
     const fetchUsers = async () => {
-      setLoading(true);
-      setError(null);
 
       try {
+         setLoading(true);
+         setError(null);
+
         const response = await fetch(
           "https://jsonplaceholder.typicode.com/users"
         );
@@ -225,6 +226,7 @@ export default function App() {
          setLoading(false);
       }
       };
+      fetchUsers();
   }, []);
 
   /* =========================================================
