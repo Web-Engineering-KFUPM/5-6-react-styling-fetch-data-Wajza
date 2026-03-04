@@ -109,7 +109,7 @@ Dependency array MUST be:
    [searchTerm, users]
 
 =============================================================
-TODO C1 — VIEW DETAILS BUTTON + USER DETAILS MODAL
+Done C1 — VIEW DETAILS BUTTON + USER DETAILS MODAL
 =============================================================
 TODO 3.1: File: src/components/UserCard.jsx
 Implement:
